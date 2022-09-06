@@ -68,6 +68,7 @@ function find( value, array ){
 }
 let weaponsArray = ['scythe', 'longsword', 'greatsword', 'battle axe'];
 console.log('find test with weapons; looking for greatsword; return true -', find('greatsword', weaponsArray));
+console.log('find test with weapons; looking for scimitar; return false -', find('scimitar', weaponsArray));
 let numArray = [25, 34, 88, 56];
 console.log('find test with numbers; looking for 45; return false -', find(45, numArray));
 console.log('find test with numbers; looking for 88; return true -', find(88, numArray));
